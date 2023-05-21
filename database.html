@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Space Pollution</title>
+  <link href="database.css" rel="stylesheet" type="text/css" />
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <div class = "indexBackground">
+  <h3> 
+    <a style="text-decoration:none" href="index.html"> Main Page </a> 
+    <a style="text-decoration:none" href="problem.html">  Problem </a>  
+    <a style="text-decoration:none" href="solution.html"> Solution </a>  
+    <a style="text-decoration:none" href="database.html"> Debris Datebase </a>    
+  </h3>
+  <br>
+  <h1>Database of Debris</h1>
+  <p> Seach Up A Country Given Into the Search Bar in Order To See Some of Its Debris Across the Years: The United States, China, France, Japan, India, and Canada. (Deb = Debris & R/B = Rocket Body)
+  </p>
+
+  <div class="search-wrapper">
+    <label for="search">Country:</label>
+    <input type = "search" class = "search" data-search>
+    <button class="submit-button" >Enter</button>
+    <!-- <button class="submit-button" id="thebutton" >Enter</button> -->
+    <div class = "show">
+          <h2 class = "country"></h2>
+          <h6 class = "data_1"></h6>
+          <h6 class = "data_2"></h6>
+          <h6 class = "data_3"></h6>
+          <h6 class = "data_4"></h6>
+      <h6 class = "data_5"></h6>
+      <h6 class = "data_6"></h6>
+      <h6 class = "data_7"></h6>
+      <h6 class = "data_8"></h6>
+      <h6 class = "data_9"></h6>
+      <h6 class = "data_10"></h6>
+    </div>
+  </div>
+  <div class="user-cards" data-user-cards-container></div>
+  <template data-user-template>
+    <div class="card">
+      <div class="header" data-header></div>
+      <div class="body" data-body></div>
+    </div>
+  </template>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,100 @@
+body {
+  background: #ffffff;
+  border-style: groove;
+  border-width: 1vw;
+  display: flex;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Times New Roman;
+}
+
+p /* Texts/Paragraphs */{
+  color: white;
+  font-family: Times New Roman;
+  text-align: center;
+  font-size: 1.5vw
+}
+
+h1, h2 /* Headings */ {
+  color: #ffffff;
+  font-weight: bold;
+  font-family: Times New Roman;
+  text-align: center;
+  letter-spacing: 5px;
+  font-size: 5.5vw;
+}
+
+.indexBackground{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(indexbackground.jpg);
+
+  display:grid;
+  justify-content: center;
+}
+h3 a {
+  font-family: Times New Roman;
+  font-size: 1.5vw;
+  color: #ffffff;
+  margin: 100px 5px;
+
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 10px;
+  background-color: #000000;
+  border-color: #ffffff;
+  padding: 5px 0;
+}
+
+h3{
+  text-align: center;
+  margin-top: 15px;
+}
+
+/* Hyperlinks - On Hover */
+h3 a:hover {
+  text-decoration: none;
+  color: #FC3D21;
+
+}
+/* Hyperlinks - On Activation */
+h3 a:active {
+  text-decoration: none;
+  color: #FC3D21;
+}
+
+img /* Images */ {
+  height: 150px;
+  width: 150px;
+  border-width: 15px;
+  margin:15px;
+  border-color: #FC3D21;
+  border-style: double;
+  border-radius: 200px;
+  margin-bottom: 50px;
+}
+
+.ProblemPageImage  {
+  float:left;
+  width:22%;
+  height: auto;
+}
+
+/*Overall Lists */
+ul, ol{
+  text-align: left;
+  margin: 0 10px;
+  font-size: 1.75vw;
+}
+
+.wrapper {
+  margin: 150px auto;
+}
+
+

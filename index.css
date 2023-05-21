@@ -1,0 +1,102 @@
+body {
+  background: #ffffff;
+  border-style: groove;
+  border-width: 1vw;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Times New Roman;
+}
+
+.indexBackground{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(indexbackground.jpg);
+
+  display: flex;
+  justify-content: center;
+}
+
+h3 a {
+  font-family: bold;
+  font-size: 1.5vw;
+  color: #ffffff;
+  margin: 100px 5px;
+
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 10px;
+  background-color: #000000;
+  border-color: #ffffff;
+   padding: 5px 0;
+}
+
+h3{
+  text-align: center;
+  margin-top: 15px;
+}
+
+/* Hyperlinks - On Hover */
+h3 a:hover {
+  text-decoration: none;
+  color: #FC3D21;
+
+}
+/* Hyperlinks - On Activation */
+h3 a:active {
+  text-decoration: none;
+  color: #FC3D21;
+}
+
+.centerTitle {
+  position: absolute;
+  color: white;
+  text-align: center;
+  width: 100%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2em;
+}
+
+.centerTitle h1 {
+  font-size: 3em;
+}
+
+.centerTitle h4 {
+  margin: 10px 0;
+  font-size: .75em;
+  font-weight: 100;
+}
+
+button {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  width: 150px;
+  font-size: .5em;
+  text-align: center;
+  padding: 5px 0;
+  border-style: solid;
+  border-radius: 100px;
+  background: transparent;
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+/* Hyperlinks - On Hover */
+button:hover {
+  text-decoration: none;
+  color: #FC3D21;
+
+}
+/* Hyperlinks - On Activation */
+button:active {
+  text-decoration: none;
+  color: #FC3D21;
+}
