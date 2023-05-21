@@ -71,8 +71,6 @@ h3 a:active {
 }
 
 img /* Images */ {
-  height: 150px;
-  width: 150px;
   border-width: 15px;
   margin:15px;
   border-color: #FC3D21;
@@ -84,7 +82,7 @@ img /* Images */ {
 .ProblemPageImage  {
   float:left;
   width:22%;
-  height: 25%;
+  height: auto;
 }
 
 /*Overall Lists */
@@ -95,7 +93,7 @@ ul, ol{
 }
 
 .wrapper {
-  margin: 9vw auto;
+  margin: -300px auto;
   margin-bottom: 0%
 }
 
