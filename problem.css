@@ -2,7 +2,6 @@ body {
   background: #ffffff;
   border-style: groove;
   border-width: 1vw;
-  display: flex;
 }
 
 *{
@@ -25,6 +24,7 @@ h1, h2 /* Headings */ {
   text-align: center;
   letter-spacing: 5px;
   font-size: 5.5vw;
+  padding-bottom: 4px;
 }
 
 .indexBackground{
@@ -55,6 +55,7 @@ h3 a {
 h3{
   text-align: center;
   margin-top: 15px;
+  height: 50px;
 }
 
 /* Hyperlinks - On Hover */
@@ -76,8 +77,8 @@ img /* Images */ {
   margin:15px;
   border-color: #FC3D21;
   border-style: double;
-  border-radius: 200px;
-  margin-bottom: 50px;
+  border-radius: 100px;
+  margin-bottom: 0px;
 }
 
 .ProblemPageImage  {
@@ -94,7 +95,8 @@ ul, ol{
 }
 
 .wrapper {
-  margin: 150px auto;
+  margin: 9vw auto;
+  margin-bottom: 0%
 }
 
 

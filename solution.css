@@ -5,8 +5,8 @@ body {
 }
 
 * {
-  margin: 0;
-  padding: 0;
+  /* margin: 0; */
+  /* padding: 0; */
   font-family: Times New Roman;
 }
 
@@ -42,8 +42,8 @@ h2
   background-position: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(indexbackground.jpg);
 
-  display: grid;
-  justify-content: center;
+  /* display: grid;
+  justify-content: center; */
 }
 
 h3 a {
@@ -102,7 +102,8 @@ ol {
 
 .container-solution {
   justify-self: center;
-  grid-template-rows: 1fr 1fr;
+  display: grid;
+  /* grid-template-columns: 1fr 1fr; */
 }
 
 .SolutionPageImg {
@@ -114,5 +115,6 @@ ol {
 }
 
 .wrapper {
-  margin: 120px auto;
+  display: flexbox;
+  flex-direction: row;
 }
